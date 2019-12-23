@@ -1,0 +1,22 @@
+{
+  "name": "practice-one",
+  "version": "1.0.0",
+  "description": "Responsive protfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Delgado23/Practice.git"
+  },
+  "author": "Charlie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Delgado23/Practice/issues"
+  },
+  "homepage": "https://github.com/Carlos-Delgado23/Practice#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
