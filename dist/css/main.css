@@ -117,6 +117,10 @@
           transform: translate3d(0, 0, 0);
 }
 
+.menu .nav-item.current > a {
+  color: #eece1a;
+}
+
 .menu .nav-link {
   display: inline-block;
   position: relative;
@@ -128,6 +132,10 @@
   text-decoration: none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+}
+
+.menu .nav-link:hover {
+  color: #eece1a;
 }
 
 .nav-item:nth-child(1) {
