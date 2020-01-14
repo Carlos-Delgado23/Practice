@@ -6,12 +6,14 @@
   top: 35px;
   cursor: pointer;
   @include easeOut;
+  
 
   .btn-line {
+    // color: black;
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: set-text-color($primary-color);
+    background: $secondary-color;
     @include easeOut;
   }
 
@@ -88,7 +90,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../dist/img/projects/');
+      background: url('../img/charlie.jpg');
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }

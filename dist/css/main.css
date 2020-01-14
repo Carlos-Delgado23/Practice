@@ -12,7 +12,7 @@
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #fff;
+  background: #F7C105;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -100,9 +100,9 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../dist/img/projects/");
+  background: url("../img/charlie.jpg");
   border-radius: 50%;
-  border: solid 3px #eece1a;
+  border: solid 3px #F7C105;
 }
 
 .menu .nav-item {
@@ -118,7 +118,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: #F7C105;
 }
 
 .menu .nav-link {
@@ -135,7 +135,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: #F7C105;
 }
 
 .nav-item:nth-child(1) {
@@ -191,7 +191,7 @@ body#bg-img:after {
 
 h1, h2, h3 {
   margin: 0;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 h1.lg-heading, h2.lg-heading, h3.lg-heading {
@@ -202,6 +202,14 @@ h1.sm-heading, h2.sm-heading, h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
   background: rgba(73, 73, 73, 0.5);
+}
+
+h1.bio-heading, h2.bio-heading, h3.bio-heading {
+  color: #F7C105;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background: #000;
 }
 
 a {
@@ -216,7 +224,7 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #F7C105;
 }
 
 main {
@@ -233,7 +241,7 @@ main .icons a {
 }
 
 main .icons a:hover {
-  color: #eece1a;
+  color: #F7C105;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -246,7 +254,12 @@ main#home h1 {
   margin-top: 20vh;
 }
 
-.about-info {
+#about {
+  background: #fff;
+  color: #000;
+}
+
+#about .about-info {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
@@ -255,45 +268,49 @@ main#home h1 {
       grid-template-columns: repeat(3, 1fr);
 }
 
-.about-info .bio-image {
+#about .about-info .bio-image {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: bioimage;
+  width: 250px;
+  height: 250px;
+  background: url("../img/charlie.jpg");
   margin: auto;
   border-radius: 50%;
-  border: #eece1a 3px solid;
+  border: #F7C105 3px solid;
 }
 
-.about-info .bio {
+#about .about-info .bio {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: bio;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-.about-info .job-1 {
+#about .about-info .job-1 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: job1;
 }
 
-.about-info .job-2 {
+#about .about-info .job-2 {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: job2;
 }
 
-.about-info .job-3 {
+#about .about-info .job-3 {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: job3;
 }
 
-.about-info .job {
-  background: #515151;
+#about .about-info .job {
+  background: #fac91b;
+  color: #000;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid;
+  border-bottom: #000 5px solid;
 }
 
 .projects {
@@ -311,7 +328,7 @@ main#home h1 {
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #eece1a;
+  border-color: #F7C105;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -341,8 +358,7 @@ main#home h1 {
 }
 
 .boxes div:hover {
-  padding: 0.5rem 1.5rem;
-  background: #eece1a;
+  background: #F7C105;
   color: #000;
 }
 
@@ -352,13 +368,13 @@ main#home h1 {
 
 .btn, .btn-dark, .btn-light {
   display: block;
-  padding: o 0.5rem 1rem;
+  padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
-  background: #eece1a;
+  background: #F7C105;
   color: #000;
 }
 
@@ -428,7 +444,7 @@ main#home h1 {
             transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../dist/img/projects/");
+    background: url("../img/150.jpg");
     width: 150px;
     height: 150px;
   }
